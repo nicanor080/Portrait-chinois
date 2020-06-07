@@ -1,0 +1,1448 @@
+@font-face {
+  font-family: 'aldrich';
+  src: url('fonts/aldrich.woff2') format('woff2'),
+    url('fonts/aldrich.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'americancaptain';
+  src: url('fonts/americancaptain.woff2') format('woff2'),
+    url('fonts/americancaptain.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'baloob';
+  src: url('fonts/baloob.woff2') format('woff2'),
+    url('fonts/baloob.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'balooc';
+  src: url('fonts/balooc.woff2') format('woff2'),
+    url('fonts/balooc.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'sport';
+  src: url('fonts/sport.woff2') format('woff2'),
+    url('fonts/sport.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'batman';
+  src: url('fonts/batman.woff2') format('woff2'),
+    url('fonts/batman.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'daysone';
+  src: url('fonts/daysone.woff2') format('woff2'),
+    url('fonts/daysone.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'jura';
+  src: url('fonts/jura.woff2') format('woff2'),
+    url('fonts/jura.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  background-color: #0a0b0f;
+  margin: 0%;
+  cursor: default
+}
+
+.accueil {
+  color: white;
+  font-family: 'daysone';
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.pc {
+  font-size: 2.4vw;
+  padding-left: 32%;
+  position: absolute;
+  margin-top: 0.6%;
+
+}
+
+.nom {
+  line-height: 95%;
+  font-size: 4.8vw;
+  text-align: right;
+  border-right: 0.4vw solid #FFBC00;
+  height: 70vh;
+  padding-right: 3.1%;
+  position: absolute;
+  margin-top: 9.6%;
+  margin-left: 16.6%;
+
+}
+
+.phrase {
+  line-height: 165%;
+  font-size: 4.8vw;
+  position: absolute;
+  margin-top: 8%;
+  margin-left: 49%;
+
+}
+
+.start {
+  margin-top: 3.5%;
+  font-size: 5vw;
+  margin-left: 53.5%;
+  border: 0.4vw solid white;
+  width: 22%;
+  text-align: center;
+  cursor: pointer;
+  position: absolute;
+  margin-top: 34.8%;
+  border-radius: 1%;
+}
+
+.start:hover {
+  transform: scale(1.1);
+  transition: transform 0.2s;
+  color: #FFBC00;
+  border: 0.4vw solid #FFBC00;
+}
+
+.septmots:before {
+  content: '#jeux-vidéo';
+  text-transform: uppercase;
+  font-family: 'daysone';
+  color: #FFBC00;
+  animation: word-switch 5s infinite;
+}
+
+@keyframes word-switch {
+  0% {
+    content: '#jeux-vidéo';
+  }
+
+  14% {
+    content: '#héros';
+  }
+
+  28% {
+    content: '#athlète';
+  }
+
+  42% {
+    content: '#pirate';
+  }
+
+  56% {
+    content: '#docteur';
+  }
+
+  70% {
+    content: '#artiste';
+  }
+
+  84% {
+    content: '#méchant';
+  }
+}
+
+.pagevierge,
+.page1,
+.page2,
+.page3,
+.page4,
+.page5,
+.page6,
+.page7 {
+  font-family: 'daysone';
+  color: white;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.topvierge {
+  position: absolute;
+  margin-left: 28%;
+  margin-top: 0.8%;
+  color: #FFBC00;
+  font-size: 2.1vw;
+
+}
+
+.personnagevierge {
+  position: absolute;
+  margin-top: 5%;
+  margin-left: 5.6%;
+  width: 25.3%;
+  height: 36.3vw;
+  border: 0.18vw solid #292929;
+  background-color: #020307;
+  border-radius: 1%;
+  padding: 0;
+}
+
+.textevierge {
+  position: absolute;
+  width: 42.5%;
+  height: 16.4vw;
+  background-color: #020307;
+  margin-top: 4.9%;
+  margin-left: 47.6%;
+  border: 0.18vw solid #292929;
+  border-radius: 1%;
+  line-height: 148%;
+  font-size: 1.25vw;
+  text-align: justify;
+  padding: 0.5% 1% 1% 1%;
+  cursor: default;
+}
+
+.top {
+  position: absolute;
+  margin-left: 43.7%;
+  margin-top: 0.8%;
+  color: #FFBC00;
+  font-size: 2.1vw;
+}
+
+.quitt {
+  position: absolute;
+
+  width: 15vw;
+  margin-top: 0.9%;
+  margin-left: 84%;
+  cursor: pointer;
+}
+
+.personnage {
+  position: absolute;
+  margin-top: 5%;
+  margin-left: 5.6%;
+  width: 25.3%;
+  border: 0.18vw solid #292929;
+  border-radius: 1%;
+  padding: 0;
+}
+
+.titrestats {
+  position: absolute;
+  margin-top: 5%;
+  margin-left: 31.1%;
+  background-color: #020307;
+  font-size: 1.1vw;
+  color: #FFBC00;
+  border-top: 0.18vw solid #292929;
+  border-right: 0.18vw solid #292929;
+  border-left: 0.18vw solid #292929;
+  width: 11%;
+  line-height: 180%;
+  text-align: center;
+  padding-left: 0.5%;
+  border-radius: 3%;
+}
+
+.stats {
+  position: absolute;
+  margin-top: 7%;
+  margin-left: 31.1%;
+  background-color: #020307;
+  font-size: 1.1vw;
+  border-right: 0.18vw solid #292929;
+  border-left: 0.18vw solid #292929;
+  border-bottom: 0.18vw solid #292929;
+  line-height: 300%;
+  width: 11%;
+  padding-left: 0.5%;
+  padding-top: 0.5%;
+  padding-bottom: 1.2%;
+  border-radius: 2%;
+}
+
+.titreinfos {
+  position: absolute;
+  margin-top: 5%;
+  margin-left: 31.1%;
+  font-size: 1.1vw;
+  background-color: #020307;
+  color: #FFBC00;
+  border-top: 0.18vw solid #292929;
+  border-right: 0.18vw solid #292929;
+  border-left: 0.18vw solid #292929;
+  width: 11%;
+  line-height: 180%;
+  text-align: center;
+  padding-left: 0.5%;
+  border-radius: 3%;
+}
+
+.infos {
+  position: absolute;
+  margin-top: 7%;
+  margin-left: 31.1%;
+  font-size: 1.1vw;
+  background-color: #020307;
+  border-right: 0.18vw solid #292929;
+  border-left: 0.18vw solid #292929;
+  border-bottom: 0.18vw solid #292929;
+  width: 11%;
+  line-height: 250%;
+  padding-left: 0.5%;
+  padding-top: 0.8%;
+  padding-bottom: 0.5%;
+  border-radius: 2%;
+}
+
+.droite {
+  position: absolute;
+  margin-top: 5.47%;
+  margin-left: 41.5%;
+  width: 0.8%;
+  cursor: pointer;
+}
+
+.gauche {
+  position: absolute;
+  margin-top: 5.47%;
+  margin-left: 31.65%;
+  width: 0.8%;
+  cursor: pointer;
+}
+
+.texte {
+  position: absolute;
+  width: 42.5%;
+  background-color: #020307;
+  margin-top: 4.9%;
+  margin-left: 47.6%;
+  border: 0.18vw solid #292929;
+  border-radius: 1%;
+  color: white;
+  line-height: 148%;
+  font-size: 1.25vw;
+  text-align: justify;
+  padding: 0.5% 1% 1% 1%;
+}
+
+.flt {
+  position: absolute;
+  margin-top: 26%;
+  margin-left: 55.7%;
+  width: 8.5%;
+  cursor: pointer;
+  padding: 0;
+  border-radius: 100px;
+  box-shadow:  6px 6px 22px #040406, 
+             -6px -6px 22px #101218;
+}
+
+.flt:hover {
+  border: 0.35vw solid #FFBC00;
+}
+
+.typofallout {
+  position: absolute;
+  margin-top: 42.2%;
+  margin-left: 6.6%;
+  font-family: 'jura';
+  font-size: 2.5vw;
+  color: #FFBC00;
+}
+
+.lineflt {
+  position: absolute;
+  margin-top: 28%;
+  margin-left: 32%;
+  font-size: 1.3vw;
+  line-height: 200%;
+  text-align: center;
+  width: 12%;
+  color: white;
+}
+
+.cpt {
+  position: absolute;
+  margin-top: 26%;
+  margin-left: 65.7%;
+  width: 8.5%;
+  cursor: pointer;
+  padding: 0;
+  border-radius: 100px;
+  box-shadow:  6px 6px 22px #040406, 
+             -6px -6px 22px #101218;
+}
+
+.cpt:hover {
+  border: 0.35vw solid #FFBC00;
+}
+
+.typocaptainamerica {
+  position: absolute;
+  margin-top: 42.3%;
+  margin-left: 9.8%;
+  font-family: 'americancaptain';
+  letter-spacing: 0.2vw;
+  font-size: 2.5vw;
+  color: #FFBC00;
+}
+
+.linecpt {
+  position: absolute;
+  margin-top: 28%;
+  margin-left: 31.5%;
+  font-size: 1.3vw;
+  line-height: 200%;
+  text-align: center;
+  width: 15%;
+  color: white;
+}
+
+.cry {
+  position: absolute;
+  margin-top: 26%;
+  margin-left: 75.7%;
+  width: 8.5%;
+  cursor: pointer;
+  padding: 0;
+  border-radius: 100px;
+  box-shadow:  6px 6px 22px #040406, 
+             -6px -6px 22px #101218;
+}
+
+.cry:hover {
+  border: 0.35vw solid #FFBC00;
+}
+
+.typocurry {
+  position: absolute;
+  margin-top: 42.6%;
+  margin-left: 7.7%;
+  font-family: 'sport';
+  font-size: 2.5vw;
+  color: #FFBC00;
+}
+
+.linecry {
+  position: absolute;
+  margin-top: 28%;
+  margin-left: 31.8%;
+  font-size: 1.3vw;
+  line-height: 200%;
+  text-align: center;
+  width: 15%;
+  color: white;
+}
+
+.lfy {
+  position: absolute;
+  margin-top: 36%;
+  margin-left: 50.7%;
+  width: 8.5%;
+  cursor: pointer;
+  padding: 0;
+  border-radius: 100px;
+  box-shadow:  6px 6px 22px #040406, 
+             -6px -6px 22px #101218;
+}
+
+.lfy:hover {
+  border: 0.35vw solid #FFBC00;
+}
+
+.typoluffy {
+  position: absolute;
+  margin-top: 41.7%;
+  margin-left: 8.7%;
+  font-family: 'baloob';
+  font-size: 2.4vw;
+  color: #FFBC00;
+}
+
+.linefy {
+  position: absolute;
+  margin-top: 28%;
+  margin-left: 32.5%;
+  font-size: 1.3vw;
+  line-height: 200%;
+  text-align: center;
+  width: 15%;
+  color: white;
+}
+
+.drh {
+  position: absolute;
+  margin-top: 36%;
+  margin-left: 60.7%;
+  width: 8.5%;
+  cursor: pointer;
+  padding: 0;
+  border-radius: 100px;
+  box-shadow:  6px 6px 22px #040406, 
+             -6px -6px 22px #101218;
+}
+
+.drh:hover {
+  border: 0.35vw solid #FFBC00;
+}
+
+.typodrhouse {
+  position: absolute;
+  margin-top: 42.2%;
+  margin-left: 10.9%;
+  font-family: 'aldrich';
+  font-size: 2.5vw;
+  color: #FFBC00;
+}
+
+.linedrh {
+  position: absolute;
+  margin-top: 28%;
+  margin-left: 31%;
+  font-size: 1.3vw;
+  line-height: 200%;
+  text-align: center;
+  width: 15%;
+  color: white;
+}
+
+.apw {
+  position: absolute;
+  margin-top: 36%;
+  margin-left: 70.7%;
+  width: 8.5%;
+  cursor: pointer;
+  padding: 0;
+  border-radius: 100px;
+  box-shadow:  6px 6px 22px #040406, 
+             -6px -6px 22px #101218;
+}
+
+.apw:hover {
+  border: 0.35vw solid #FFBC00;
+}
+
+.lineapw {
+  position: absolute;
+  margin-top: 28%;
+  margin-left: 32.4%;
+  font-size: 1.3vw;
+  line-height: 200%;
+  text-align: center;
+  width: 15%;
+  color: white;
+}
+
+.typoalphawann {
+  position: absolute;
+  margin-top: 42.2%;
+  margin-left: 9.3%;
+  font-family: 'daysone';
+  font-size: 2.2vw;
+  color: #FFBC00;
+}
+
+.jkr {
+  position: absolute;
+  margin-top: 36%;
+  margin-left: 80.7%;
+  width: 8.5%;
+  cursor: pointer;
+  padding: 0;
+  border-radius: 100px;
+  box-shadow:  6px 6px 22px #040406, 
+             -6px -6px 22px #101218;
+}
+
+.jkr:hover {
+  border: 0.35vw solid #FFBC00;
+}
+
+.linejkr {
+  position: absolute;
+  margin-top: 28%;
+  margin-left: 32.5%;
+  font-size: 1.3vw;
+  line-height: 200%;
+  text-align: center;
+  width: 15%;
+  color: white;
+}
+
+.typojoker {
+  position: absolute;
+  margin-top: 42.3%;
+  margin-left: 10.7%;
+  font-family: 'batman';
+  font-size: 2.4vw;
+  color: #FFBC00;
+}
+
+.forceflt1 {
+  position: absolute;
+  margin-top: 10.6%;
+  margin-left: 31.9%;
+  background: #292929;
+  border-radius: 100px;
+  height: 0.68%;
+  width: 9.5%;
+}
+
+.forceflt2 {
+  animation: forceflt 2s normal forwards;
+  border-radius: 100px;
+  background: #ffbc00;
+  height: 100%;
+  width: 0;
+}
+
+.enduranceflt1 {
+  position: absolute;
+  margin-top: 14%;
+  margin-left: 31.9%;
+  background: #292929;
+  border-radius: 100px;
+  height: 0.7%;
+  width: 9.5%;
+}
+
+.enduranceflt2 {
+  animation: enduranceflt 2s normal forwards;
+  border-radius: 100px;
+  background: #ffbc00;
+  height: 100%;
+  width: 0;
+}
+
+.intelligenceflt1 {
+  position: absolute;
+  margin-top: 17.3%;
+  margin-left: 31.9%;
+  background: #292929;
+  border-radius: 100px;
+  height: 0.7%;
+  width: 9.5%;
+}
+
+.intelligenceflt2 {
+  animation: intelligenceflt 2s normal forwards;
+  border-radius: 100px;
+  background: #ffbc00;
+  height: 100%;
+  width: 0;
+}
+
+.charismeflt1 {
+  position: absolute;
+  margin-top: 20.6%;
+  margin-left: 31.9%;
+  background: #292929;
+  border-radius: 100px;
+  height: 0.6%;
+  width: 9.5%;
+}
+
+.charismeflt2 {
+  animation: charismeflt 2s normal forwards;
+  border-radius: 100px;
+  background: #ffbc00;
+  height: 100%;
+  width: 0;
+}
+
+@keyframes forceflt {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 80%;
+  }
+
+  ;
+}
+
+@keyframes enduranceflt {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 60%;
+  }
+
+  ;
+}
+
+@keyframes intelligenceflt {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 90%;
+  }
+
+  ;
+}
+
+@keyframes charismeflt {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 80%;
+  }
+
+  ;
+}
+
+.forcecpt1 {
+  position: absolute;
+  margin-top: 10.6%;
+  margin-left: 31.9%;
+  background: #292929;
+  border-radius: 100px;
+  height: 0.68%;
+  width: 9.5%;
+}
+
+.forcecpt2 {
+  animation: forcecpt 2s normal forwards;
+  border-radius: 100px;
+  background: #ffbc00;
+  height: 100%;
+  width: 0;
+}
+
+.endurancecpt1 {
+  position: absolute;
+  margin-top: 14%;
+  margin-left: 31.9%;
+  background: #292929;
+  border-radius: 100px;
+  height: 0.7%;
+  width: 9.5%;
+}
+
+.endurancecpt2 {
+  animation: endurancecpt 2s normal forwards;
+  border-radius: 100px;
+  background: #ffbc00;
+  height: 100%;
+  width: 0;
+}
+
+.intelligencecpt1 {
+  position: absolute;
+  margin-top: 17.3%;
+  margin-left: 31.9%;
+  background: #292929;
+  border-radius: 100px;
+  height: 0.7%;
+  width: 9.5%;
+}
+
+.intelligencecpt2 {
+  animation: intelligencecpt 2s normal forwards;
+  border-radius: 100px;
+  background: #ffbc00;
+  height: 100%;
+  width: 0;
+}
+
+.charismecpt1 {
+  position: absolute;
+  margin-top: 20.6%;
+  margin-left: 31.9%;
+  background: #292929;
+  border-radius: 100px;
+  height: 0.6%;
+  width: 9.5%;
+}
+
+.charismecpt2 {
+  animation: charismecpt 2s normal forwards;
+  border-radius: 100px;
+  background: #ffbc00;
+  height: 100%;
+  width: 0;
+}
+
+@keyframes forcecpt {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 100%;
+  }
+
+  ;
+}
+
+@keyframes endurancecpt {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 100%;
+  }
+
+  ;
+}
+
+@keyframes intelligencecpt {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 100%;
+  }
+
+  ;
+}
+
+@keyframes charismecpt {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 100%;
+  }
+
+  ;
+}
+
+.forcecry1 {
+  position: absolute;
+  margin-top: 10.6%;
+  margin-left: 31.9%;
+  background: #292929;
+  border-radius: 100px;
+  height: 0.68%;
+  width: 9.5%;
+}
+
+.forcecry2 {
+  animation: forcecry 2s normal forwards;
+  border-radius: 100px;
+  background: #ffbc00;
+  height: 100%;
+  width: 0;
+}
+
+.endurancecry1 {
+  position: absolute;
+  margin-top: 14%;
+  margin-left: 31.9%;
+  background: #292929;
+  border-radius: 100px;
+  height: 0.7%;
+  width: 9.5%;
+}
+
+.endurancecry2 {
+  animation: endurancecry 2s normal forwards;
+  border-radius: 100px;
+  background: #ffbc00;
+  height: 100%;
+  width: 0;
+}
+
+.intelligencecry1 {
+  position: absolute;
+  margin-top: 17.3%;
+  margin-left: 31.9%;
+  background: #292929;
+  border-radius: 100px;
+  height: 0.7%;
+  width: 9.5%;
+}
+
+.intelligencecry2 {
+  animation: intelligencecry 2s normal forwards;
+  border-radius: 100px;
+  background: #ffbc00;
+  height: 100%;
+  width: 0;
+}
+
+.charismecry1 {
+  position: absolute;
+  margin-top: 20.6%;
+  margin-left: 31.9%;
+  background: #292929;
+  border-radius: 100px;
+  height: 0.6%;
+  width: 9.5%;
+}
+
+.charismecry2 {
+  animation: charismecry 2s normal forwards;
+  border-radius: 100px;
+  background: #ffbc00;
+  height: 100%;
+  width: 0;
+}
+
+@keyframes forcecry {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 50%;
+  }
+
+  ;
+}
+
+@keyframes endurancecry {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 70%;
+  }
+
+  ;
+}
+
+@keyframes intelligencecry {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 92%;
+  }
+
+  ;
+}
+
+@keyframes charismecry {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 60%;
+  }
+
+  ;
+}
+
+.forcelfy1 {
+  position: absolute;
+  margin-top: 10.6%;
+  margin-left: 31.9%;
+  background: #292929;
+  border-radius: 100px;
+  height: 0.68%;
+  width: 9.5%;
+}
+
+.forcelfy2 {
+  animation: forcelfy 2s normal forwards;
+  border-radius: 100px;
+  background: #ffbc00;
+  height: 100%;
+  width: 0;
+}
+
+.endurancelfy1 {
+  position: absolute;
+  margin-top: 14%;
+  margin-left: 31.9%;
+  background: #292929;
+  border-radius: 100px;
+  height: 0.7%;
+  width: 9.5%;
+}
+
+.endurancelfy2 {
+  animation: endurancelfy 2s normal forwards;
+  border-radius: 100px;
+  background: #ffbc00;
+  height: 100%;
+  width: 0;
+}
+
+.intelligencelfy1 {
+  position: absolute;
+  margin-top: 17.3%;
+  margin-left: 31.9%;
+  background: #292929;
+  border-radius: 100px;
+  height: 0.7%;
+  width: 9.5%;
+}
+
+.intelligencelfy2 {
+  animation: intelligencelfy 2s normal forwards;
+  border-radius: 100px;
+  background: #ffbc00;
+  height: 100%;
+  width: 0;
+}
+
+.charismelfy1 {
+  position: absolute;
+  margin-top: 20.6%;
+  margin-left: 31.9%;
+  background: #292929;
+  border-radius: 100px;
+  height: 0.6%;
+  width: 9.5%;
+}
+
+.charismelfy2 {
+  animation: charismelfy 2s normal forwards;
+  border-radius: 100px;
+  background: #ffbc00;
+  height: 100%;
+  width: 0;
+}
+
+@keyframes forcelfy {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 100%;
+  }
+
+  ;
+}
+
+@keyframes endurancelfy {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 100%;
+  }
+
+  ;
+}
+
+@keyframes intelligencelfy {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 10%;
+  }
+
+  ;
+}
+
+@keyframes charismelfy {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 100%;
+  }
+
+  ;
+}
+
+.forcedrh1 {
+  position: absolute;
+  margin-top: 10.6%;
+  margin-left: 31.9%;
+  background: #292929;
+  border-radius: 100px;
+  height: 0.68%;
+  width: 9.5%;
+}
+
+.forcedrh2 {
+  animation: forcedrh 2s normal forwards;
+  border-radius: 100px;
+  background: #ffbc00;
+  height: 100%;
+  width: 0;
+}
+
+.endurancedrh1 {
+  position: absolute;
+  margin-top: 14%;
+  margin-left: 31.9%;
+  background: #292929;
+  border-radius: 100px;
+  height: 0.7%;
+  width: 9.5%;
+}
+
+.endurancedrh2 {
+  animation: endurancedrh 2s normal forwards;
+  border-radius: 100px;
+  background: #ffbc00;
+  height: 100%;
+  width: 0;
+}
+
+.intelligencedrh1 {
+  position: absolute;
+  margin-top: 17.3%;
+  margin-left: 31.9%;
+  background: #292929;
+  border-radius: 100px;
+  height: 0.7%;
+  width: 9.5%;
+}
+
+.intelligencedrh2 {
+  animation: intelligencedrh 2s normal forwards;
+  border-radius: 100px;
+  background: #ffbc00;
+  height: 100%;
+  width: 0;
+}
+
+.charismedrh1 {
+  position: absolute;
+  margin-top: 20.6%;
+  margin-left: 31.9%;
+  background: #292929;
+  border-radius: 100px;
+  height: 0.6%;
+  width: 9.5%;
+}
+
+.charismedrh2 {
+  animation: charismedrh 2s normal forwards;
+  border-radius: 100px;
+  background: #ffbc00;
+  height: 100%;
+  width: 0;
+}
+
+@keyframes forcedrh {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 5%;
+  }
+
+  ;
+}
+
+@keyframes endurancedrh {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 10%;
+  }
+
+  ;
+}
+
+@keyframes intelligencedrh {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 100%;
+  }
+
+  ;
+}
+
+@keyframes charismedrh {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 100%;
+  }
+
+  ;
+}
+
+.forceapw1 {
+  position: absolute;
+  margin-top: 10.6%;
+  margin-left: 31.9%;
+  background: #292929;
+  border-radius: 100px;
+  height: 0.68%;
+  width: 9.5%;
+}
+
+.forceapw2 {
+  animation: forceapw 2s normal forwards;
+  border-radius: 100px;
+  background: #ffbc00;
+  height: 100%;
+  width: 0;
+}
+
+.enduranceapw1 {
+  position: absolute;
+  margin-top: 14%;
+  margin-left: 31.9%;
+  background: #292929;
+  border-radius: 100px;
+  height: 0.7%;
+  width: 9.5%;
+}
+
+.enduranceapw2 {
+  animation: enduranceapw 2s normal forwards;
+  border-radius: 100px;
+  background: #ffbc00;
+  height: 100%;
+  width: 0;
+}
+
+.intelligenceapw1 {
+  position: absolute;
+  margin-top: 17.3%;
+  margin-left: 31.9%;
+  background: #292929;
+  border-radius: 100px;
+  height: 0.7%;
+  width: 9.5%;
+}
+
+.intelligenceapw2 {
+  animation: intelligenceapw 2s normal forwards;
+  border-radius: 100px;
+  background: #ffbc00;
+  height: 100%;
+  width: 0;
+}
+
+.charismeapw1 {
+  position: absolute;
+  margin-top: 20.6%;
+  margin-left: 31.9%;
+  background: #292929;
+  border-radius: 100px;
+  height: 0.6%;
+  width: 9.5%;
+}
+
+.charismeapw2 {
+  animation: charismeapw 2s normal forwards;
+  border-radius: 100px;
+  background: #ffbc00;
+  height: 100%;
+  width: 0;
+}
+
+@keyframes forceapw {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 35%;
+  }
+
+  ;
+}
+
+@keyframes enduranceapw {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 50%;
+  }
+
+  ;
+}
+
+@keyframes intelligenceapw {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 80%;
+  }
+
+  ;
+}
+
+@keyframes charismeapw {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 92%;
+  }
+
+  ;
+}
+
+.forcejkr1 {
+  position: absolute;
+  margin-top: 10.6%;
+  margin-left: 31.9%;
+  background: #292929;
+  border-radius: 100px;
+  height: 0.68%;
+  width: 9.5%;
+}
+
+.forcejkr2 {
+  animation: forcejkr 2s normal forwards;
+  border-radius: 100px;
+  background: #ffbc00;
+  height: 100%;
+  width: 0;
+}
+
+.endurancejkr1 {
+  position: absolute;
+  margin-top: 14%;
+  margin-left: 31.9%;
+  background: #292929;
+  border-radius: 100px;
+  height: 0.7%;
+  width: 9.5%;
+}
+
+.endurancejkr2 {
+  animation: endurancejkr 2s normal forwards;
+  border-radius: 100px;
+  background: #ffbc00;
+  height: 100%;
+  width: 0;
+}
+
+.intelligencejkr1 {
+  position: absolute;
+  margin-top: 17.3%;
+  margin-left: 31.9%;
+  background: #292929;
+  border-radius: 100px;
+  height: 0.7%;
+  width: 9.5%;
+}
+
+.intelligencejkr2 {
+  animation: intelligencejkr 2s normal forwards;
+  border-radius: 100px;
+  background: #ffbc00;
+  height: 100%;
+  width: 0;
+}
+
+.charismejkr1 {
+  position: absolute;
+  margin-top: 20.6%;
+  margin-left: 31.9%;
+  background: #292929;
+  border-radius: 100px;
+  height: 0.6%;
+  width: 9.5%;
+}
+
+.charismejkr2 {
+  animation: charismejkr 2s normal forwards;
+  border-radius: 100px;
+  background: #ffbc00;
+  height: 100%;
+  width: 0;
+}
+
+@keyframes forcejkr {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 50%;
+  }
+
+  ;
+}
+
+@keyframes endurancejkr {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 85%;
+  }
+
+  ;
+}
+
+@keyframes intelligencejkr {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 75%;
+  }
+
+  ;
+}
+
+@keyframes charismejkr {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 100%;
+  }
+
+  ;
+}
+
+.page1,
+.page2,
+.page3,
+.page4,
+.page5,
+.page6,
+.page7,
+.pagevierge,
+.photo {
+  display: none;
+}
